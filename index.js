@@ -1,3 +1,3 @@
 const returnFirstTwoDrivers() = function test(drivers) {
-  return drivers[0]
+  return drivers.slice(0,2)
 }
